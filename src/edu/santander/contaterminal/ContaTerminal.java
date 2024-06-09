@@ -27,7 +27,7 @@ public class ContaTerminal {
 
         switch (sc.nextInt()) {
             case 1:
-                System.out.println("Digite o valor do deposito:");
+            System.out.println("Digite o valor do deposito:");
                 conta.setSaldo(sc.nextDouble());
                 System.out.println("Deposito realizado, seu saldo atual é de: " + conta.getSaldo());
                 System.out.println(conta);
